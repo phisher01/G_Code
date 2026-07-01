@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets / local config
+.env
+*.key
+
+# Agent-generated output (uncomment if you don't want to commit generated demos)
+# Todo/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

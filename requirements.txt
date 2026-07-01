@@ -1,0 +1,8 @@
+# Core dependencies for G-Code
+ollama==0.6.2
+pydantic==2.13.4
+requests==2.34.2
+
+# Optional — only needed if you switch to a cloud model
+# (e.g. Gemini via the OpenAI-compatible endpoint). See README "Configuration".
+# openai==2.41.0
