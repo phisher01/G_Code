@@ -1,1 +1,0 @@
-document.getElementById('addTask').addEventListener('submit', function(event){event.preventDefault();const taskInput = document.getElementById('new-task');const taskText = taskInput.value.trim();if(taskText){const li = document.createElement('li');li.className = 'task';li.textContent = taskText;document.querySelector('#tasks').appendChild(li);taskInput.value = '';}}
